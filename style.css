@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+    background-color: wheat;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans';
+}
+nav{
+    font-family: 'Nunito Sans';
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand img{
+    height: 53px;
+    padding: 0px 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container{
+    min-height: 68vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 11px;
+    padding: 30px 15px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.bottom{
+    position :sticky;
+    height: 150px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(162, 11, 11);
+    flex-direction: column;
+
+}
+.bottom img{
+    /* background-color: white; */
+    cursor: pointer;
+     width: 50px;
+    height: 50px; 
+    margin-top: 15px;
+}
+
+#bar{
+    width: 90%;
+
+}
+
+.songitem{
+    display: flex;
+    height: 30px;
+    background-color: rgb(207, 222, 222);
+    width: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+    margin: 20px auto;
+    align-items: center;
+    padding: 17px 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.songitem img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+#play{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
