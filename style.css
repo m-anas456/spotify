@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 body{
-    background-color: wheat;
+    background-color: rgb(20, 20, 19);
 }
 *{
     margin: 0;
@@ -38,7 +38,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 68vh;
+    min-height: 65vh;
     color: white;
     background-color: black;
     display: flex;
@@ -57,7 +57,7 @@ nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(162, 11, 11);
+    color: rgb(255, 255, 255);
     flex-direction: column;
 
 }
@@ -71,6 +71,7 @@ nav ul li{
 
 #bar{
     width: 90%;
+    cursor: pointer;
 
 }
 
@@ -93,10 +94,65 @@ nav ul li{
     width: 60px;
     height: 60px;
     border-radius: 50px;
-}
-#play{
+}#play1{
     width: 18px;
     height: 18px;
     margin-left: 10px;
     cursor: pointer;
+    /* display: none; */
 }
+#play2{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+#play3{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+#play4{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+#play5{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.songitemcontainer{
+    margin-top: 40px;
+}
+
+.songinfo{
+    width: 100%;
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    /* padding: 10px 20px; */
+    font-weight: bold;
+    
+}
+#text{
+    margin-left: 10px;
+}
+.songinfo img{
+    width: 48px;
+  height: 11px;
+  opacity:0;
+  transition: opacity 0.2s ease-in;
+}
+
+
